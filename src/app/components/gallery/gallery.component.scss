@@ -1,0 +1,12 @@
+.row {
+  margin: -15px;
+  justify-content: space-between;
+  .col-auto {
+    padding: 15px;
+  }
+  &:after {
+    content: "";
+    flex: 0 0 50%;
+    max-width: 532px;
+  }
+}
