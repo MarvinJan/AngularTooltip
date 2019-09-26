@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./app/shared/styles/variables.scss";
 body {
-  background: $background;
+  background: linear-gradient(45deg, #13547a, #764ba2);
   color: $text;
   padding: 40px 0;
   min-height: 120vh;
 }
 hr {
-    border-color: #fff7;
+  border-color: #fff7;
 }
